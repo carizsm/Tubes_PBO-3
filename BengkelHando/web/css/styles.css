@@ -1,0 +1,122 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 Jan 2025, 15.30.06
+    Author     : cahya
+*/
+/* styles.css */
+
+/* Body dan Background */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* Card Styling */
+.card {
+    border-color: #dc3545;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.card-header {
+    font-weight: bold;
+    background-color: #dc3545; /* Header merah */
+    color: white; /* Teks putih */
+    text-transform: uppercase;
+}
+.card-footer {
+    text-align: center;
+}
+
+.card-footer .btn {
+    width: 100%;
+}
+
+/* Responsif */
+@media (max-width: 767px) {
+    .welcome-section {
+        padding: 50px 0;
+    }
+}
+
+/* Tombol utama dengan warna merah */
+.btn-custom {
+    background-color: #dc3545; /* Warna merah */
+    border-color: #dc3545;
+    color: white;
+    border-radius: 30px; /* Membuat tombol berbentuk bulat */
+    padding: 12px 30px; /* Memberikan padding lebih besar */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #c82333; /* Warna merah lebih gelap saat hover */
+    border-color: #bd2130;
+}
+
+/* Tombol untuk tombol kembali atau cancel dengan warna abu-abu lebih terang */
+.btn-secondary-custom {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    color: #495057;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #ced4da;
+    border-color: #adb5bd;
+}
+
+/* Navbar customization */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dc3545; /* Warna merah saat hover */
+}
+
+/* Table styling */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+
